@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+    
+    <div class="stopwatch">
+        <div class="container">
+            <div class="time">
+                <span class="interval js-minutes">00</span>
+                <span class="colon">:</span>
+                <span class="interval js-seconds">00</span>
+                <span class="colon">:</span>
+                <span class="interval js-hundredths-seconds">00</span>
+            </div>
+            <!-- <ul class="laps">
+                <li class="laps-item"></li>
+            </ul> -->
+            <div class="buttons">
+                <button class="btn js-btn-start">Start</button>
+                <button class="btn js-btn-stop">Stop</button>
+                <button class="btn js-btn-reset">Reset</button>
+                <button class="btn js-btn-lap">Lap</button>
+            </div>
+        </div>
+        <div class="laps-block">
+            <p class="laps-text">Laps</p>
+            <ul class="laps">
+                <li class="laps-item">03:50:35</li>
+                <!-- <li class="laps-item">03:50:35</li>
+                <li class="laps-item">03:50:35</li>
+                <li class="laps-item">03:50:35</li>
+                <li class="laps-item">03:50:35</li> -->
+            </ul>
+            <button class="btn js-btn-clear">Clear</button>
+        </div>
+    </div>
+
+    <script src="./js/main.js" defer></script>
+</body>
+</html>

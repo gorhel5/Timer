@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #502990;
+}
+
+.stopwatch {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.container {
+    width: 800px;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 35px 2px rgb(45, 29, 70);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 150px;
+}
+
+.time {
+    min-width: 550px;
+    min-height: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 600;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interval {
+    margin: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 60px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.laps-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 35px 2px rgb(45, 29, 70);
+    padding: 20px;
+}
+.laps-text {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.laps-item {
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 5px;
+    
+}
+
+.laps {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
